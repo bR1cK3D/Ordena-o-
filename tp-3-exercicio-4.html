@@ -49,14 +49,7 @@
 
 				vetor[i] = prompt('Digite um número');
 
-				vetor.sort(ordenar);
-
-			function ordenar(a, b) {
-
-				return a - b;
-
-			}
-
+				vetor.sort((a, b) => a - b);
 			}	
 
 			resposta.innerHTML = vetor.join(" ");
